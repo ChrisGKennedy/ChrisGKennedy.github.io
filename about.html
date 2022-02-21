@@ -21,12 +21,12 @@
 
   </head>
 
-  <body>
+  <body class="aboutPage">
     <header>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
       </button>
-      <nav class="nav" id="home">
+      <nav class="nav">
         <ul class="navList">
           <li class="navItem">
             <a class="navLink" href="/index.html">Home</a>
@@ -35,51 +35,26 @@
             <a class="navLink" href="/about.html">About</a>
           </li>
           <li class="navItem">
-            <a class="navLink" href="#projects">Projects</a>
+            <a class="navLink" href="/index.html#projects">Projects</a>
           </li>
           <li class="navItem">
             <a class="navLink" href="/media/Resume2.20.2022.pdf" target="_blank">Resume</a>
           </li>
           <li class="navItem">
-            <a class="navLink" href="#contact">Contact</a>
+            <a class="navLink" href="/index.html#contact">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <!-- Introduction and a bit about me-->
-      <section class="intro">
-        <h1 class="sectionTitle sectionTitle--intro">
-          Christian Kennedy
-        </h1>
-        <p class="sectionSubtitle sectionSubtitle--intro">
-          Student at Trinity University Studying Computer Science
+      <section class="aboutMe">
+        <h1 class="sectionTitle sectionTitle--about">About Me</h1>
+        <p class="bio"> &emsp; I’m Christian Kennedy, a sophomore at Trinity University pursuing a degree in Computer Science. 
+          I started programming in my freshman year of highschool when I tried to and eventually succeeded in writing a Caesar cipher in Python. 
+          After that I took every CS class I could in highschool, giving me enough knowledge to skip ahead in my college CS curriculum and take some interesting upper division courses as a sophomore. <br>
+          &emsp; When I’m not learning new languages, libraries, or CS concepts I like to ride my mountain bike on the trails in San Antonio. Currently my favorite place to ride my bike is Olmos park as there are a lot of fun unofficial trails there.
         </p>
-        <h2 class="sectionTitle sectionTitle--projects">Projects</h2>
-      </section>
-
-      <section class="projects" id="projects">
-        <div class="project">
-          <h3 class="projectTitle">This Website</h3>
-          <div class="projectRow">
-            <div class="projectColumn projectLeftColumn">
-              <img class="projectImage" src="media/websiteScreenshotCropped.png">
-              <p></p>
-            </div>
-            <div class="projectColumn projectRightColumn">
-              <p>
-                My personal website written in HTML, CSS, and Javascript. No
-                other libraries or frameworks. Done this way to ensure fast loading, as
-                well as refresh myself on the basics.
-              </p>
-              <div class="projectCodeLinks">
-                <a class="projectCodeLink" href="index.html#home"><u>Demo</u></a>
-                <a class="projectCodeLink" href="https://github.com/ChrisGKennedy/Personal-Portfolio-Website"><u>Code</u></a>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
     </main>
 
