@@ -175,10 +175,13 @@ header {
     padding: 1em;
     max-width: 70em;
     margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .projectTitle {
     flex: 100%;
+    margin-bottom: .5em;
 }
 
 .projectRow {
@@ -209,7 +212,8 @@ header {
 }
 
 .aboutMe {
-
+    max-width: 70em;
+    margin: auto;
 }
 
 .bio {
